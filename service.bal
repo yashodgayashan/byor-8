@@ -5,6 +5,7 @@ import ballerina/http;
 #
 configurable string test = ?;
 configurable string test2 = ?;
+configurable string test3 = ?;
 
 service / on new http:Listener(9090) {
 
@@ -16,6 +17,6 @@ service / on new http:Listener(9090) {
         if name is "" {
             return error("name should not be empty!");
         }
-        return "Hells ssoss , test " + name + "hol ii2 s ,  " + test + " ," + test2;
+        return "Hells ssoss , test " + name + "hol ii2 s ,  " + test + " ," + test2 + test3;
     }
 }
