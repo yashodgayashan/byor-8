@@ -17,6 +17,6 @@ service / on new http:Listener(9090) {
         if name is "" {
             return error("name should not be empty!");
         }
-        return "Hell  s  ss os s ,  test " + name + "hol ii2 s ,  " + test + " ," + test2 + test3;
+        return "Hellss  s  ss os s ,  test " + name + "hol ii2 s ,  " + test + " ," + test2 + test3;
     }
 }
